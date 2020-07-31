@@ -1,0 +1,22 @@
+1. http://{{ip}}:{{port}}/employee/add
+
+{
+"name" : "navin",
+"password" : "eeee",
+"age" : "42",
+"gender" : "male"
+
+}
+2 : http://{{ip}}:{{port}}/employee/login
+{
+    "name" : "navin",
+    "password" : "eeee"
+}
+3.http://{{ip}}:{{port}}/employee/getemployee
+{
+    "name" : "navin",
+    "sessionToken" : "13E70B04-D304-11EA-8611-5173B3828A72",
+    "gender" : "male",
+    "minage" : "",
+    "maxage" : ""
+}
